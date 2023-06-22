@@ -1,0 +1,54 @@
+.pi {
+  z-index: 1;
+}
+.p-button {
+  padding: 10px 6px !important;
+  font-size: 14px !important;
+  color: #fff !important;
+  box-shadow: none !important;
+}
+.p-inputtext {
+  color: $black !important;
+  background: transparent !important;
+  border-color: #313131 !important;
+  width: 100%;
+}
+
+.p-inputnumber {
+  width: 8rem;
+  height: 40px;
+
+  .p-inputtext {
+    text-align: center !important;
+    box-shadow: none !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+  }
+
+  .p-inputtext:enabled:focus {
+    box-shadow: none !important;
+  }
+}
+.p-inputnumber-buttons-horizontal .p-button.p-inputnumber-button-down {
+  background-color: transparent !important;
+  color: #a6a6a6 !important;
+  border-color: #313131 !important;
+  border-radius: 0 !important;
+  border-right: 0 !important;
+
+  .pi {
+    font-size: 12px !important;
+  }
+}
+
+.p-inputnumber-buttons-horizontal .p-button.p-inputnumber-button-up {
+  background-color: transparent !important;
+  color: #a6a6a6 !important;
+  border-color: #313131 !important;
+  border-radius: 0 !important;
+  border-left: 0 !important;
+
+  .pi {
+    font-size: 12px !important;
+  }
+}
