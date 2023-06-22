@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 import Product from '../models/produits'
 import algoliasearch from 'algoliasearch'
-const client = algoliasearch('LHEHRAOCPA', 'ac0bf61cd0b0ea3c08a42b727db16c78')
+const client = algoliasearch('LHEHRAOCPA', '039d338da9355ed3ebcc46d2c61d6a62')
 
 export const useStore = defineStore('Store', {
   state: () => {
